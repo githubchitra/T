@@ -8,6 +8,8 @@ from torch.utils.data import DataLoader, random_split
 from tqdm import tqdm
 import matplotlib
 
+print("hello")
+
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
