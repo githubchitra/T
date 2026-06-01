@@ -38,6 +38,10 @@ checkpoints/
 *.pth
 *.ckpt
 
+# Allow specific checkpoint files for deployment
+!checkpoints/best_model.pt
+!checkpoints/best_transformer.pt
+
 # Dataset files
 shakespeare.txt
 *.txt
@@ -45,12 +49,18 @@ shakespeare.txt
 *.json
 *.parquet
 
+# Allow requirements.txt for deployment
+!requirements.txt
+
 # Plot outputs
 plots/
 *.png
 *.jpg
 *.jpeg
 *.pdf
+
+# Allow specific plot files for deployment
+!plots/attention_map.png
 
 # Jupyter notebook outputs
 .ipynb_checkpoints/
