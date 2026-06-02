@@ -4,7 +4,7 @@ A clean, modular, and fully documented character-level Transformer language mode
 
 This codebase also includes a custom **LSTM model from scratch** (using standard cell gate equations) to serve as a baseline comparison.
 
-**Live Demo:** [https://misinformation-intelligence-platform.streamlit.app/](https://misinformation-intelligence-platform.streamlit.app/)
+**Live Demo:** [https://transformer-from-scratch.streamlit.app/](https://transformer-from-scratch.streamlit.app/)
 
 ## Architecture & Mathematical Formulations
 
